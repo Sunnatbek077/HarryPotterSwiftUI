@@ -12,6 +12,7 @@ struct HPCharacterCellView: View {
     var name: String?
     var species: String?
     
+    @State private var showDefault = false
     
     var body: some View {
         ZStack {
@@ -20,10 +21,23 @@ struct HPCharacterCellView: View {
                 AsyncImage(url: imageURL) { phase in
                     switch phase {
                     case .empty:
-                        ProgressView()
-                            .frame(maxWidth: .infinity, maxHeight: 150)
-                            .background(.thinMaterial)
-                            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        if showDefault {
+                            defaultCharacterImage
+                                .frame(width: 145, height: 150)
+                        } else {
+                            ProgressView()
+                                .frame(width: 145, height: 150)
+                                .background(.thinMaterial)
+                                .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                                .onAppear {
+                                    // 2 soniyadan keyin default rasmga o‘tadi
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                        withAnimation {
+                                            showDefault = true
+                                        }
+                                    }
+                                }
+                        }
                         
                     case .success(let image):
                         image
@@ -39,11 +53,13 @@ struct HPCharacterCellView: View {
                         
                     case .failure:
                         defaultCharacterImage
+                            .frame(width: 145, height: 150)
+                        
                     @unknown default:
                         defaultCharacterImage
+                            .frame(width: 145, height: 150)
                     }
                 }
-                .frame(width: 140, height: 150)
                 
                 // MARK: - Text Info
                 VStack(alignment: .leading, spacing: 4) {

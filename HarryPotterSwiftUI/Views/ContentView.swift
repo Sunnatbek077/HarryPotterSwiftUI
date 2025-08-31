@@ -42,22 +42,34 @@ struct ContentView: View {
     func tabView() -> some View {
         TabView {
             Tab("Characters", systemImage: "person") {
-                HPCharacterListView(viewModel: characterViewModel)
+                NavigationStack {
+                    HPCharacterListView(viewModel: characterViewModel)
+                }
             }
             Tab("Books", systemImage: "book") {
-                HPBookListView(viewModel: bookViewModel)
+                NavigationStack {
+                    HPBookListView(viewModel: bookViewModel)
+                }
             }
             Tab("Movies", systemImage: "movieclapper") {
-                HPMovieListView(viewModel: movieViewModel)
+                NavigationStack {
+                    HPMovieListView(viewModel: movieViewModel)
+                }
             }
             Tab("Search", systemImage: "magnifyingglass", role: .search) {
-                SearchView() 
+                NavigationStack {
+                    SearchView()
+                }
             }
             Tab("Potions", systemImage: "drop") {
-                HPPotionListView(viewModel: potionViewModel)
+                NavigationStack {
+                    HPPotionListView(viewModel: potionViewModel)
+                }
             }
             Tab("Spells", systemImage: "lightbulb") {
-                HPSpellListView(viewModel: spellViewModel)
+                NavigationStack {
+                    HPSpellListView(viewModel: spellViewModel)
+                }
             }
         }
     }
