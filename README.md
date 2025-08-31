@@ -18,5 +18,14 @@ This application is intended for practice, learning the API for working on an ap
 ## 🚀 Get Started
 You can start the project by following the steps below.
 
+---
+
 ## Source API 
 https://potterdb.com/
+
+--- 
+## Developer
+
+Sunnatbek Abdunabiyev
+https://t.me/sunnatbekabdunabiev
+www.instagram.com/the_saad_0077
