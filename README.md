@@ -16,12 +16,17 @@ This application is intended for practice, learning the API for working on an ap
 ---
 ## Screenshots
 
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-31 at 16 43 06" src="https://github.com/user-attachments/assets/a0df6e77-4cd6-413a-96f5-5df27a7c9d80" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-31 at 16 37 52" src="https://github.com/user-attachments/assets/215abd53-414e-4d8b-b3ec-e4472e06a7b8" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-31 at 16 32 44" src="https://github.com/user-attachments/assets/21852424-9dec-4067-96a6-1223c7c84e0d" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-31 at 16 32 29" src="https://github.com/user-attachments/assets/e9a8f83a-05fe-4651-90a0-fd51ecc174be" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-31 at 16 32 24" src="https://github.com/user-attachments/assets/bd16aa41-8cda-4c0b-ad02-8203ad1f9692" />
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-31 at 16 32 15" src="https://github.com/user-attachments/assets/6cac8179-1f94-4292-ab4e-77fac74829f0" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a0df6e77-4cd6-413a-96f5-5df27a7c9d80" width="250" />
+  <img src="https://github.com/user-attachments/assets/215abd53-414e-4d8b-b3ec-e4472e06a7b8" width="250" />
+  <img src="https://github.com/user-attachments/assets/21852424-9dec-4067-96a6-1223c7c84e0d" width="250" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9a8f83a-05fe-4651-90a0-fd51ecc174be" width="250" />
+  <img src="https://github.com/user-attachments/assets/bd16aa41-8cda-4c0b-ad02-8203ad1f9692" width="250" />
+  <img src="https://github.com/user-attachments/assets/6cac8179-1f94-4292-ab4e-77fac74829f0" width="250" />
+</p>
 
 
 
