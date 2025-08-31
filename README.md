@@ -26,6 +26,6 @@ https://potterdb.com/
 --- 
 ## Developer
 
-Sunnatbek Abdunabiyev
-https://t.me/sunnatbekabdunabiev
-www.instagram.com/the_saad_0077
+- Sunnatbek Abdunabiyev
+- https://t.me/sunnatbekabdunabiev
+- www.instagram.com/the_saad_0077
